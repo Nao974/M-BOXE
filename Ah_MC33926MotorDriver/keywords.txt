@@ -1,0 +1,6 @@
+Ah_MC33926MotorDriver	KEYWORD1
+init	KEYWORD2
+setSpeed	KEYWORD2
+setSpeed	KEYWORD2
+getCurrentMilliamps	KEYWORD2
+getFault	KEYWORD2
