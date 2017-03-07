@@ -24,6 +24,6 @@ Go to my tutorial / Mon tutoriel sur [Oui Are Makers](http://ouiaremakers.com/po
 
 ## History / Historique
 
-- <img src="https://github.com/Nao974/M-BOXE/blob/master/history.md">
+- [History] (https://github.com/Nao974/M-BOXE/blob/master/history.md)
 
 
