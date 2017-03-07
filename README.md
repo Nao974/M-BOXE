@@ -6,7 +6,11 @@ Servo-Moteur construction "Maison" controlé par Raspberry-py en I2C
 
 ## Contents / Contenu
 
-* [Features / Fonctionnalités](https://github.com/Nao974/M-BOXE#features)
+* [Features / Fonctionnalités](https://github.com/Nao974/M-BOXE#features--fonctionnalités)
+* [Installation](https://github.com/Nao974/M-BOXE#installation)
+	* [Step 1](https://github.com/Nao974/M-BOXE#step-1)
+* [Usage](https://github.com/Nao974/M-BOXE#usage)
+* [History / Historique](https://github.com/Nao974/M-BOXE#histroy--historique)
 
 ## Features / Fonctionnalités
 
@@ -19,7 +23,7 @@ Servo-Moteur construction "Maison" controlé par Raspberry-py en I2C
 
 
 ## RoadMap
-###Ver 0.3:
+####Ver 0.3:
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Remontée des valeurs analogiques PINA2 & PINA3
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Remontée des valeurs numériques PIN0 -> PIN7 (PortD)
 - Remontée de la température
@@ -30,7 +34,7 @@ Servo-Moteur construction "Maison" controlé par Raspberry-py en I2C
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ajout de la remontée de l'état des contacts FW et BW sur code 0x48
 
 
-###Ver 0.4:
+####Ver 0.4:
 - Intégration des fonctions de protection
 	- Suivant bornes définies
 	- Suivant remontée de la carte MC
@@ -45,6 +49,6 @@ Servo-Moteur construction "Maison" controlé par Raspberry-py en I2C
 	- Remontée suivant type d'anomalie
 
 
-###V 1.0:
+####V 1.0:
 - Ajout de la commande par PWM comme un servo
 
