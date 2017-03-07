@@ -6,6 +6,7 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 ## Contents / Contenu
 
 * [Features / Fonctionnalités](https://github.com/Nao974/M-BOXE#features--fonctionnalités)
+* [Construction](https://github.com/Nao974/M-BOXE#construction)
 * [Installation](https://github.com/Nao974/M-BOXE#installation)
 	* [Step 1](https://github.com/Nao974/M-BOXE#step-1)
 * [Usage](https://github.com/Nao974/M-BOXE#usage)
@@ -13,6 +14,8 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 
 ## Features / Fonctionnalités
 
+## Construction
+Go to my tutorial / Mon tutoriel sur [Oui Are Makers](http://ouiaremakers.com/posts/tutoriel-diy-maxi-servo-moteur-i2c)
 ## Installation
 
 ##### Step 1
