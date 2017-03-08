@@ -18,7 +18,17 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 Go to my tutorial / Mon tutoriel sur [Oui Are Makers](http://ouiaremakers.com/posts/tutoriel-diy-maxi-servo-moteur-i2c)
 ## Installation
 
-##### Step 1
+##### Step 1: Import Motor-Command Library / Importer la librairie de Commande Moteur 
+You should import the control card library into the Arduino IDE:
+Sketch-> Import Library-> Add Library
+
+Il convient d'importer la librairie de la carte de commande dans l'IDE Arduino: 
+	Croquis-> importer Bibliothèque-> ajouter Bibliothèque.
+
+##### Step 2: Firmware Setting / Paramétrage du firmware
+
+Ouvrir le croquis firmware.ino
+Définir l'adresse I2C de votre Mboxe à la ligne '''js #define SLAVE_ADRESS 0x14 '''
 
 ## Usage
 
