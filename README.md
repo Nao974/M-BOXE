@@ -8,7 +8,7 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 * [Features / Fonctionnalités](https://github.com/Nao974/M-BOXE#features--fonctionnalités)
 * [Construction](https://github.com/Nao974/M-BOXE#construction)
 * [Installation](https://github.com/Nao974/M-BOXE#installation)
-	* [Step 1](https://github.com/Nao974/M-BOXE#step-1)
+	* [Step 1: Import Motor-Command Library / Importer la librairie de Commande Moteur](https://github.com/Nao974/M-BOXE#Step-1:-Import-Motor-Command-Library--Importer-la-librairie-de-Commande-Moteur)
 * [Usage](https://github.com/Nao974/M-BOXE#usage)
 * [History / Historique](https://github.com/Nao974/M-BOXE#histroy--historique)
 
@@ -28,7 +28,7 @@ Il convient d'importer la librairie de la carte de commande dans l'IDE Arduino:
 ##### Step 2: Firmware Setting / Paramétrage du firmware
 
 Ouvrir le croquis firmware.ino
-Définir l'adresse I2C de votre Mboxe à la ligne '''js #define SLAVE_ADRESS 0x14 '''
+Définir l'adresse I2C de votre Mboxe à la ligne ```js #define SLAVE_ADRESS 0x14 ```
 
 ## Usage
 
