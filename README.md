@@ -4,7 +4,7 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 <img src="https://github.com/Nao974/M-BOXE/blob/master/M-BOXE.jpg">
 
 ## Contents / Contenu
-
+* [Directory / Repertoire](https://github.com/Nao974/M-BOXE#directory--Repertoire)
 * [Features / Fonctionnalités](https://github.com/Nao974/M-BOXE#features--fonctionnalités)
 * [Construction](https://github.com/Nao974/M-BOXE#construction)
 * [Installation](https://github.com/Nao974/M-BOXE#installation)
@@ -13,6 +13,12 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 	* [Step 3: Setting the PID / Paramétrage du PID](https://github.com/Nao974/M-Boxe#step-3-setting-the-pid--paramétrage-du-pid)
 * [Usage](https://github.com/Nao974/M-BOXE#usage)
 * [History / Historique](https://github.com/Nao974/M-BOXE#histroy--historique)
+
+## Directory / Repertoire
+* Doc/       Documentation
+* firmware/  Skecth for download to Arduino / Croquis à télécharger dans l'Arduino
+* Library_MotorDriver/  Library to order the card Engine to install in your IDE / Librairie pour commander la carte Moteur à installer dans votre IDE
+* Library_I2C-Master_Python/   Bookshop in Python to order M-Boxes in I2C / Librairie en Python pour commander les M-Boxe en I2C
 
 ## Features / Fonctionnalités
 
