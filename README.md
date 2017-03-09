@@ -5,7 +5,7 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 
 ## Contents / Contenu
 * [Directory / Repertoire](https://github.com/Nao974/M-BOXE#directory--Repertoire)
-* [Features / Fonctionnalités](https://github.com/Nao974/M-BOXE#features--fonctionnalités)
+* [Features / Fonctionnalités](https://github.com/Nao974/M-BOXE#directory--repertoire)
 * [Construction](https://github.com/Nao974/M-BOXE#construction)
 * [Installation](https://github.com/Nao974/M-BOXE#installation)
 	* [Step 1: Import Motor-Command Library / Importer la librairie de Commande Moteur](https://github.com/Nao974/M-Boxe#step-1-import-motor-command-library--importer-la-librairie-de-commande-moteur)	
@@ -39,7 +39,7 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
    * Integration of a new configuration
 * Saving / Loading Parameters in the EEPROM
 
-***
+
 
 * Atteindre et maintenir une position (Angle) à une vitesse donnée constante
 * Recevoir la consigne de position par liaison I2C
