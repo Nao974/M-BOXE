@@ -39,6 +39,7 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
    * Integration of a new configuration
 * Saving / Loading Parameters in the EEPROM
 
+
 * Atteindre et maintenir une position (Angle) à une vitesse donnée constante
 * Recevoir la consigne de position par liaison I2C
 * Mise en Sécurité en cas de dépassement des valeurs :
