@@ -51,14 +51,12 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 
 * Atteindre et maintenir une position (Angle) à une vitesse donnée constante
 * Recevoir la consigne de position par liaison I2C
-* Mise en Sécurité en cas de dépassement des valeurs:
-
+* Mise en Sécurité en cas de dépassement des valeurs:  
 	* Température- Consommation électrique
 	* Blocage de l’arbre moteur
 	* Activation du capteur (tout/rien) inversement au mouvement en cours
 	* Retour au fonctionnement normal une fois la valeur en dessous du seuil de déclenchement
-* Transmettre les données suivant la commande reçue par I2C:
-
+* Transmettre les données suivant la commande reçue par I2C:  
 	* Etat
 	* Position actuelle
 	* Valeur d’une entrée analogique donnée
@@ -90,13 +88,13 @@ Il convient d'importer la librairie de la carte de commande dans l'IDE Arduino:
 
 Open the sketch firmware.ino
 Set the I2C address of your Mboxe to line ``` #define SLAVE_ADRESS 0x14 ```
-You can modify the parameters directly in the source code on line ```mboxeType mBoxe={....}``` or later with the program [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) in graphic mode or [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) in command line.
+You can modify the parameters directly in the source code on line ```mboxeType mBoxe={....}``` or later with the program [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) in graphic mode or [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) in command line.  
 Details of the parameters in the document [Parameter_M-BOXE.jpg](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)
 
 
 Ouvrir le croquis firmware.ino
 Définir l'adresse I2C de votre Mboxe à la ligne ``` #define SLAVE_ADRESS 0x14 ```
-Vous pouvez modifier les paramétres directement dans le code source à la ligne ```mboxeType mBoxe={....}``` ou par la suite avec le programme [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) en mode graphique ou  [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) en ligne de commande.
+Vous pouvez modifier les paramétres directement dans le code source à la ligne ```mboxeType mBoxe={....}``` ou par la suite avec le programme [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) en mode graphique ou  [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) en ligne de commande.  
 Detail des paramètres dans le document [Parameter_M-BOXE.jpg](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)
 
 
