@@ -2,7 +2,7 @@
 
 Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Maison" controlé par Raspberry-py en I2C
 
-![Photo M-BOXE]("https://github.com/Nao974/M-BOXE/blob/master/M-BOXE.jpg" "Photo M-BOXE")
+<img src="https://github.com/Nao974/M-BOXE/blob/master/M-BOXE.jpg" title="Photo M-BOXE" alt="Photo M-Boxe">
 
 
 ## Contents / Contenu
@@ -31,19 +31,19 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 * Reach and maintain a position (Angle) at a constant given speed
 * Receive position setpoint by I2C link
 * Security in case of exceeding values: 
-	* Temperature
-	* Power consumption
-	* Blocking of the motor shaft
-	* Activation of the sensor (on / off) inversely to the movement in progress
-	* Return to normal operation once the value is below the trip threshold.
+ * Temperature
+ * Power consumption
+ * Blocking of the motor shaft
+ * Activation of the sensor (on / off) inversely to the movement in progress
+ * Return to normal operation once the value is below the trip threshold.
 * Transmit the data following the command received by I2C: 
-	* State
-	* Current position
-	* Value of a given analog input
-	* Value of registers Digital inputs
+ * State
+ * Current position
+ * Value of a given analog input
+ * Value of registers Digital inputs
 * Parameterization by I2C: 
-	* Sending configuration
-	* Integration of a new configuration
+ * Sending configuration
+ * Integration of a new configuration
 * Saving / Loading Parameters in the EEPROM
 
 --
