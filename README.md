@@ -23,20 +23,20 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 ## Features / Fonctionnalités
 * Reach and maintain a position (Angle) at a constant given speed
 * Receive position setpoint by I2C link
-* Security in case of exceeding values:
-   * Temperature
-   * Power consumption
-   * Blocking of the motor shaft
-   * Activation of the sensor (on / off) inversely to the movement in progress
-   * Return to normal operation once the value is below the trip threshold.
+* Security in case of exceeding values: 
+	* Temperature
+	* Power consumption
+	* Blocking of the motor shaft
+	* Activation of the sensor (on / off) inversely to the movement in progress
+	* Return to normal operation once the value is below the trip threshold.
 * Transmit the data following the command received by I2C:
-   * State
-   * Current position
-   * Value of a given analog input
-   * Value of registers Digital inputs
+	* State
+	* Current position
+	* Value of a given analog input
+	* Value of registers Digital inputs
 * Parameterization by I2C:
-   * Sending configuration
-   * Integration of a new configuration
+	* Sending configuration
+	* Integration of a new configuration
 * Saving / Loading Parameters in the EEPROM
 
 --
@@ -73,10 +73,12 @@ Il convient d'importer la librairie de la carte de commande dans l'IDE Arduino:
 Open the sketch firmware.ino
 Set the I2C address of your Mboxe to line ``` #define SLAVE_ADRESS 0x14 ```
 You can modify the parameters directly in the source code on line ```mboxeType mBoxe={....}``` or later with the program [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) in graphic mode or  [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) in command line.
+Details of the parameters in the document [Parameter_M-BOX.jpg](https://github.com/Nao974/Doc/Parameter_M-BOX.jpg)
 
 Ouvrir le croquis firmware.ino
 Définir l'adresse I2C de votre Mboxe à la ligne ``` #define SLAVE_ADRESS 0x14 ```
 Vous pouvez modifier les paramétres directement dans le code source à la ligne ```mboxeType mBoxe={....}``` ou par la suite avec le programme [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) en mode graphique ou  [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) en ligne de commande.
+Detail des paramètres dans le document [Parameter_M-BOX.jpg](https://github.com/Nao974/Doc/Parameter_M-BOX.jpg)
 
 ##### Step 3: Setting the PID / Paramétrage du PID
 In USB connection, you can enable debug mode to ```#define DEBUG false``` by passing it to 'true'. This will bring up the current position, setpoint position and PID calculations on a time scale in the Series monitor of your IDE. It is enough to subsequently COPY/PASTE this data in a spreadsheet and make a graph.
