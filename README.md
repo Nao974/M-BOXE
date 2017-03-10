@@ -2,7 +2,7 @@
 
 Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Maison" controlé par Raspberry-py en I2C
 
-![image M-BOXE]<img src="https://github.com/Nao974/M-BOXE/blob/master/M-BOXE.jpg">
+![Photo M-BOXE]("https://github.com/Nao974/M-BOXE/blob/master/M-BOXE.jpg" "Photo M-BOXE")
 
 
 ## Contents / Contenu
@@ -56,12 +56,12 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 	* Blocage de l’arbre moteur
 	* Activation du capteur (tout/rien) inversement au mouvement en cours
 	* Retour au fonctionnement normal une fois la valeur en dessous du seuil de déclenchement
-* Transmettre les données suivant la commande reçue par I2C: 
+* Transmettre les données suivant la commande reçue par I2C:
 	* Etat
 	* Position actuelle
 	* Valeur d’une entrée analogique donnée
 	* Valeur des registres Entrées numériques
-* Paramétrage par I2C: 
+* Paramétrage par I2C:
 	* Envoi de la configuration
 	* Intégration d’une nouvelle configuration
 * Sauvegarde/Chargement des paramètres dans l’EEPROM
