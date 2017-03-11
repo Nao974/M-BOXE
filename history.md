@@ -1,14 +1,18 @@
 # History / Historique
 
 ####Ver 0.3:
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Remontée des valeurs analogiques PINA2 & PINA3
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Remontée des valeurs numériques PIN0 -> PIN7 (PortD)
-- Remontée de la température
-  - Test de la fonction seule: OK
-  - Intégration dans le firmware : !KO!
-  - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Basculé sur version 0.4
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ajout de la remontée de l'état de la protection sur code 0x44
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ajout de la remontée de l'état des contacts FW et BW sur code 0x48
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Lecture par I2C des valeurs analogiques PINA2 & PINA3
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Lecture par I2C des valeurs numériques PIN0 -> PIN7 (PortD)
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ~~Lecture par I2C de la température~~ Basculé sur version 0.4
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ajout de la lecture de l'état de la protection sur code 0x44
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ajout de la lecture de l'état des contacts FW et BW sur code 0x48
+
+
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) I2C reading of analog values PINA2 & PINA3
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) I2C reading of Numeric Values PIN0 -> PIN7 (PortD)
+* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ~~I2C reading of the temperature~~ Switch to version 0.4
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Added protection status reading to code 0x44
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Added FW and BW contact status reading to code 0x48
 
 
 ####Ver 0.4:
