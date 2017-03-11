@@ -30,20 +30,20 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 
 * Reach and maintain a position (Angle) at a constant given speed
 * Receive position setpoint by I2C link
-* Security in case of exceeding values: 
- * Temperature
- * Power consumption
- * Blocking of the motor shaft
- * Activation of the sensor (on / off) inversely to the movement in progress
- * Return to normal operation once the value is below the trip threshold.
+* Security in case of exceeding values:
+	* Temperature
+	* Power consumption
+	* Blocking of the motor shaft
+	* Activation of the sensor (on / off) inversely to the movement in progress
+	* Return to normal operation once the value is below the trip threshold.
 * Transmit the data following the command received by I2C: 
- * State
- * Current position
- * Value of a given analog input
- * Value of registers Digital inputs
+	* State
+	* Current position
+	* Value of a given analog input
+	* Value of registers Digital inputs
 * Parameterization by I2C: 
- * Sending configuration
- * Integration of a new configuration
+	* Sending configuration
+	* Integration of a new configuration
 * Saving / Loading Parameters in the EEPROM
 
 --
@@ -52,17 +52,18 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 * Atteindre et maintenir une position (Angle) à une vitesse donnée constante
 * Recevoir la consigne de position par liaison I2C
 * Mise en Sécurité en cas de dépassement des valeurs:
-	* Température- Consommation électrique
-	* Blocage de l’arbre moteur
+	* Température
+	* Consommation électrique
+	* Blocage de l’arbre moteur
 	* Activation du capteur (tout/rien) inversement au mouvement en cours
 	* Retour au fonctionnement normal une fois la valeur en dessous du seuil de déclenchement
 * Transmettre les données suivant la commande reçue par I2C:
-	* Etat
+	* Etat
 	* Position actuelle
 	* Valeur d’une entrée analogique donnée
 	* Valeur des registres Entrées numériques
 * Paramétrage par I2C:
-	* Envoi de la configuration
+	* Envoi de la configuration
 	* Intégration d’une nouvelle configuration
 * Sauvegarde/Chargement des paramètres dans l’EEPROM
 
