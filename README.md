@@ -103,7 +103,7 @@ Detail des paramètres dans le document [Parameter_M-BOXE.pdf](https://github.co
 Once your construction and firmware settings have been made, connect your M-BOXE to the I2C bus.  
 As for power, I use an ATX molex 4P connector and a desktop power supply. It is important to separate the power supply from the motor from the Arduino power supply and the MC board.  
 
-The [Library_I2C-Master_Python/M-BOXE.py](https://github.com/Nao974/M-BOXE/blob/master/Library_I2C-Master_Python/M-BOXE.py) library allows you to control your M-BOXE from the I2C bus.
+The [M-BOXE.py](https://github.com/Nao974/M-BOXE/blob/master/Library_I2C-Master_Python/M-BOXE.py) library in `Library_I2C-Master_Python` directory allows you to control your M-BOXE from the I2C bus.
 Detail of registers (command) I2C in document [Register_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Register_I2C_M-BOXE.pdf)  
 See examples [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) in graphic mode or [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) in command line.  
 
@@ -111,7 +111,7 @@ See examples [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) in
 Une fois votre construction et le paramétrage du firmware effectué, connecter votre M-BOXE au bus I2C.  
 Concernant l'alimentation, j'utilise un connecteur ATX molex 4P et une alimentation d'ordinateur de bureau. Il est important de séparer l'alimentation de puissance du moteur de l'alimentation de l'Arduino et de la carte MC.  
 
-La libriairie [Library_I2C-Master_Python/M-BOXE.py](https://github.com/Nao974/M-BOXE/blob/master/Library_I2C-Master_Python/M-BOXE.py) permet de commander votre M-BOXE à partir du bus I2C.  
+La libriairie [M-BOXE.py](https://github.com/Nao974/M-BOXE/blob/master/Library_I2C-Master_Python/M-BOXE.py) dans le repertoire `Library_I2C-Master_Python` permet de commander votre M-BOXE à partir du bus I2C.  
 Detail des registres (commande) I2C dans le document [Register_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Register_I2C_M-BOXE.pdf)  
 
 Voir les exemples [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) en mode graphique ou  [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) en ligne de commande.  
