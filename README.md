@@ -7,17 +7,17 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 
 ## Contents / Contenu
 
-* [Directory / Repertoire](https://github.com/Nao974/M-BOXE#directory--Répertoire)
-* [Features / Fonctionnalités](https://github.com/Nao974/M-BOXE#Features--Fonctionnalités)
+* [Directory / Repertoire](https://github.com/Nao974/M-BOXE#directory--répertoire)
+* [Features / Fonctionnalités](https://github.com/Nao974/M-BOXE/blob/master/README.md#features--fonctionnalités)
 * [Construction](https://github.com/Nao974/M-BOXE#construction)
 * [Installation](https://github.com/Nao974/M-BOXE#installation)
 	* [Step 1: Import Motor-Command Library / Importer la librairie de Commande Moteur](https://github.com/Nao974/M-Boxe#step-1-import-motor-command-library--importer-la-librairie-de-commande-moteur)	
 	* [Step 2: Firmware Setting / Paramétrage du firmware](https://github.com/Nao974/M-Boxe#step-2-firmware-setting--paramétrage-du-firmware)
 * [Usage](https://github.com/Nao974/M-BOXE#usage)
-* [History / Historique](https://github.com/Nao974/M-BOXE#histroy--historique)
+* [History / Historique](https://github.com/Nao974/M-BOXE#history--historique)
 
 
-## Directory / Repertoire
+## Directory / Répertoire
 
 * ```Doc/```       Documentation
 * ```firmware/```  Skecth for download to Arduino / Croquis à télécharger dans l'Arduino
@@ -104,7 +104,7 @@ Once your construction and firmware settings have been made, connect your M-BOXE
 As for power, I use an ATX molex 4P connector and a desktop power supply. It is important to separate the power supply from the motor from the Arduino power supply and the MC board.  
 
 The `MBOXE.PY` library allows you to control your M-BOXE from the I2C bus.
-Detail of registers (command) I2C in document [Register_M-BOXE.jpg](https://github.com/Nao974/M-BOXE/blob/master/doc/Register_M-BOXE.pdf)  
+Detail of registers (command) I2C in document [Register_M-BOXE.jpg](https://github.com/Nao974/M-BOXE/blob/master/doc/Register_I2C_M-BOXE.pdf)  
 See examples [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) in graphic mode or [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) in command line.  
 
 
@@ -112,7 +112,7 @@ Une fois votre construction et le paramétrage du firmware effectué, connecter 
 Concernant l'alimentation, j'utilise un connecteur ATX molex 4P et une alimentation d'ordinateur de bureau. Il est important de séparer l'alimentation de puissance du moteur de l'alimentation de l'Arduino et de la carte MC.  
 
 La libriairie `MBOXE.PY` permet de commander votre M-BOXE à partir du bus I2C.  
-Detail des registres (commande) I2C dans le document [Register_M-BOXE.jpg](https://github.com/Nao974/M-BOXE/blob/master/doc/Register_M-BOXE.pdf)  
+Detail des registres (commande) I2C dans le document [Register_M-BOXE.jpg](https://github.com/Nao974/M-BOXE/blob/master/doc/Register_I2C_M-BOXE.pdf)  
 
 Voir les exemples [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) en mode graphique ou  [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) en ligne de commande.  
 
