@@ -67,8 +67,8 @@ Servo Motor DIY controled by Raspberry-pi to I2C / Servo-Moteur construction "Ma
 
 ## Construction
 
-Go to my tutorial / Mon tutoriel sur [Oui Are Makers](http://ouiaremakers.com/posts/tutoriel-diy-maxi-servo-moteur-i2c)
-
+Go to my tutorial / Mon tutoriel sur [Oui Are Makers](http://ouiaremakers.com/posts/tutoriel-diy-maxi-servo-moteur-i2c)  
+Wiring / Cablage [Diagram](https://github.com/Nao974/M-BOXE/blob/master/doc/Wiring.png)
 
 ## Installation
 
@@ -88,14 +88,14 @@ Open the sketch firmware.ino
 In USB connection, set the I2C address of your Mboxe to line ``` #define SLAVE_ADRESS 0x14 ```
 You can enable debug mode to ```#define DEBUG false``` by passing it to 'true'. This will bring up the current position, setpoint position and PID calculations on a time scale in the Series monitor of your IDE. It is enough to subsequently COPY/PASTE this data in a spreadsheet and make a graph.  
 This graphical visualization will help you to find the best coefficients kp, kd and ki of your PID.  
-Details of the parameters in the document [Parameter_M-BOXE.jpg](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)
+Details of the parameters in the document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)
 
 
 Ouvrir le croquis firmware.ino  
 Par connexion USV, définir l'adresse I2C de votre Mboxe à la ligne ``` #define SLAVE_ADRESS 0x14 ```
 Vous pouvez activer le mode debug à la ligne ```#define DEBUG false``` en la passant à 'true'. Cela fera remonter dans le moniteur Serie de votre IDE la position courante, la position de consigne et les calculs du PID sur une échelle de temps. Il suffit par la suite de COPIER/COLLER ces données dans un tableur et faire un graphique.  
 Cette visualisation graphique vous aidera à trouver les meilleurs coefficants kp, kd et ki de votre PID.  
-Detail des paramètres dans le document [Parameter_M-BOXE.jpg](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)
+Detail des paramètres dans le document [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)
 
 
 ## Usage
@@ -104,7 +104,7 @@ Once your construction and firmware settings have been made, connect your M-BOXE
 As for power, I use an ATX molex 4P connector and a desktop power supply. It is important to separate the power supply from the motor from the Arduino power supply and the MC board.  
 
 The `MBOXE.PY` library allows you to control your M-BOXE from the I2C bus.
-Detail of registers (command) I2C in document [Register_M-BOXE.jpg](https://github.com/Nao974/M-BOXE/blob/master/doc/Register_I2C_M-BOXE.pdf)  
+Detail of registers (command) I2C in document [Register_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Register_I2C_M-BOXE.pdf)  
 See examples [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) in graphic mode or [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) in command line.  
 
 
@@ -112,7 +112,7 @@ Une fois votre construction et le paramétrage du firmware effectué, connecter 
 Concernant l'alimentation, j'utilise un connecteur ATX molex 4P et une alimentation d'ordinateur de bureau. Il est important de séparer l'alimentation de puissance du moteur de l'alimentation de l'Arduino et de la carte MC.  
 
 La libriairie `MBOXE.PY` permet de commander votre M-BOXE à partir du bus I2C.  
-Detail des registres (commande) I2C dans le document [Register_M-BOXE.jpg](https://github.com/Nao974/M-BOXE/blob/master/doc/Register_I2C_M-BOXE.pdf)  
+Detail des registres (commande) I2C dans le document [Register_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Register_I2C_M-BOXE.pdf)  
 
 Voir les exemples [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) en mode graphique ou  [M-Boxe Manager CL](https://github.com/Nao974/M-BOXE_Manager_CL) en ligne de commande.  
 
