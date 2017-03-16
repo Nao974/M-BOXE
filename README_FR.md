@@ -7,6 +7,8 @@ Servo-Moteur construction "Maison" controlé par Raspberry-py en I2C
 
 [![](https://github.com/Nao974/M-BOXE/blob/master/doc/M-BOXE_Video.png)](https://youtu.be/asLjmGtZqu0)
 
+## [English version](https://github.com/Nao974/M-BOXE/blob/master/README.md)  
+
 ## Contenu
 
 * [Repertoire](https://github.com/Nao974/M-BOXE/blob/master/README_FR.md#répertoire)
