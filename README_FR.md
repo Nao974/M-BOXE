@@ -9,14 +9,14 @@ Servo-Moteur construction "Maison" controlé par Raspberry-py en I2C
 
 ## Contenu
 
-* [Repertoire](https://github.com/Nao974/M-BOXE#répertoire)
-* [Fonctionnalités](https://github.com/Nao974/README_FR.md#fonctionnalités)
-* [Construction](https://github.com/Nao974/M-BOXE#construction)
-* [Installation](https://github.com/Nao974/M-BOXE#installation)
-	* [Step 1: Importer la librairie de Commande Moteur](https://github.com/Nao974/M-Boxe#step-1-importer-la-librairie-de-commande-moteur)	
-	* [Step 2: Paramétrage du firmware](https://github.com/Nao974/M-Boxe#step-2-paramétrage-du-firmware)
-* [Usage](https://github.com/Nao974/M-BOXE#usage)
-* [Historique](https://github.com/Nao974/M-BOXE#historique)
+* [Repertoire](https://github.com/Nao974/M-BOXE/blob/master/README_FR.md#répertoire)
+* [Fonctionnalités](https://github.com/Nao974/M-BOXE/blob/master/README_FR.md#fonctionnalités)
+* [Construction](https://github.com/Nao974/M-BOXE/blob/master/README_FR.md#construction)
+* [Installation](https://github.com/Nao974/M-BOXE/blob/master/README_FR.md#installation)
+	* [Step 1: Importer la librairie de Commande Moteur](https://github.com/Nao974/M-BOXE/blob/master/README_FR.md#step-1-importer-la-librairie-de-commande-moteur)	
+	* [Step 2: Paramétrage du firmware](https://github.com/Nao974/M-BOXE/blob/master/README_FR.md#step-2-paramétrage-du-firmware)
+* [Usage](https://github.com/Nao974/M-BOXE/blob/master/README_FR.md#usage)
+* [Historique](https://github.com/Nao974/M-BOXE/blob/master/README_FR.md#historique)
 
 
 ## Répertoire
