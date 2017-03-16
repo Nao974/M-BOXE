@@ -10,7 +10,7 @@ Servo-Moteur construction "Maison" controlé par Raspberry-py en I2C
 ## Contenu
 
 * [Repertoire](https://github.com/Nao974/M-BOXE#répertoire)
-* [Fonctionnalités](https://github.com/Nao974/M-BOXE/blob/master/README.md#fonctionnalités)
+* [Fonctionnalités](https://github.com/Nao974/README_FR.md#fonctionnalités)
 * [Construction](https://github.com/Nao974/M-BOXE#construction)
 * [Installation](https://github.com/Nao974/M-BOXE#installation)
 	* [Step 1: Importer la librairie de Commande Moteur](https://github.com/Nao974/M-Boxe#step-1-importer-la-librairie-de-commande-moteur)	
@@ -83,6 +83,6 @@ Les programmes [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) 
 
 ## Historique
 
-- [Historique] (https://github.com/Nao974/M-BOXE/blob/master/history.md)
+- [Historique](https://github.com/Nao974/M-BOXE/blob/master/history.md)
 
 
