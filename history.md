@@ -2,7 +2,7 @@
 in [french](https://github.com/Nao974/M-BOXE/blob/master/history.md#historique)
 
 
-####Ver 0.3: ***Published on 01/03/2017***
+#### Ver 0.3: ***Published on 01/03/2017***
 
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) I2C reading of analog values PINA2 & PINA3
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) I2C reading of numeric values PIN0 -> PIN7 (PortD)
@@ -11,7 +11,7 @@ in [french](https://github.com/Nao974/M-BOXE/blob/master/history.md#historique)
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Added FW and BW contact status reading to code 0x48
 
 
-####Ver 0.4: ***Coming soon***
+#### Ver 0.4: ***Coming soon***
 
 * Integration of protection functions
 	* According to defined limits
@@ -20,7 +20,7 @@ in [french](https://github.com/Nao974/M-BOXE/blob/master/history.md#historique)
 * Status LEDs on PIN11
 
 
-####Ver 0.5: ***Later on as needed***
+#### Ver 0.5: ***Later on as needed***
 
 * Added Speed PID
 	* Integration of PID Kx data
@@ -28,7 +28,7 @@ in [french](https://github.com/Nao974/M-BOXE/blob/master/history.md#historique)
 	* Rise following type of anomaly
 
 
-####Ver 1.0: ***Later on as needed***
+#### Ver 1.0: ***Later on as needed***
 
 * Added `PWM` command as normal servo.
 
@@ -36,7 +36,7 @@ in [french](https://github.com/Nao974/M-BOXE/blob/master/history.md#historique)
 
 # Historique
 
-####Ver 0.3: ***Publiée le 01/03/2017***
+#### Ver 0.3: ***Publiée le 01/03/2017***
 
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Lecture par I2C des valeurs analogiques PINA2 & PINA3
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Lecture par I2C des valeurs numériques PIN0 -> PIN7 (PortD)
@@ -45,7 +45,7 @@ in [french](https://github.com/Nao974/M-BOXE/blob/master/history.md#historique)
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Ajout de la lecture de l'état des contacts FW et BW sur code 0x48
 
 
-####Ver 0.4: ***Prochainement***
+#### Ver 0.4: ***Prochainement***
 
 * Intégration des fonctions de protection
 	* Suivant bornes définies
@@ -54,7 +54,7 @@ in [french](https://github.com/Nao974/M-BOXE/blob/master/history.md#historique)
 * LEDs état sur PIN11
 
 
-####Ver 0.5: ***Plus en fonctions des besoins***
+#### Ver 0.5: ***Plus en fonctions des besoins***
 
 - Ajout du PID Vitesse
 	- Intégration des données PID Kx
@@ -62,6 +62,6 @@ in [french](https://github.com/Nao974/M-BOXE/blob/master/history.md#historique)
 	- Remontée suivant type d'anomalie
 
 
-####Ver 1.0: ***Plus en fonctions des besoins***
+#### Ver 1.0: ***Plus en fonctions des besoins***
 
 * Ajout de la commande par `PWM` comme un servo normal.
