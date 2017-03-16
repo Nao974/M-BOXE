@@ -7,18 +7,18 @@ Servo Motor DIY controled by Raspberry-pi to I2C
 
 [![](https://github.com/Nao974/M-BOXE/blob/master/doc/M-BOXE_Video.png)](https://youtu.be/asLjmGtZqu0)
 
-##[Version Française](https://github.com/Nao974/M-BOXE/blob/master/README_FR.md)  
+## [Version Française](https://github.com/Nao974/M-BOXE/blob/master/README_FR.md)  
 
 ## Contents / Contenu
 
 * [Directory](https://github.com/Nao974/M-BOXE/blob/master/README.md#directory)
 * [Features](https://github.com/Nao974/M-BOXE/blob/master/README.md#features)
-* [Construction](github.com/Nao974/M-BOXE/blob/master/README.md#construction)
-* [Installation](github.com/Nao974/M-BOXE/blob/master/README.md#installation)
-	* [Step 1: Import Motor-Command Library](github.com/Nao974/M-BOXE/blob/master/README.md#step-1-import-motor-command-library)	
-	* [Step 2: Firmware Setting](github.com/Nao974/M-BOXE/blob/master/README.md#step-2-firmware-setting)
-* [Usage](github.com/Nao974/M-BOXE/blob/master/README.md#usage)
-* [History](github.com/Nao974/M-BOXE/blob/master/README.md#history)
+* [Construction](https://github.com/Nao974/M-BOXE/blob/master/README.md#construction)
+* [Installation](https://github.com/Nao974/M-BOXE/blob/master/README.md#installation)
+	* [Step 1: Import Motor-Command Library](https://github.com/Nao974/M-BOXE/blob/master/README.md#step-1-import-motor-command-library)	
+	* [Step 2: Firmware Setting](https://github.com/Nao974/M-BOXE/blob/master/README.md#step-2-firmware-setting)
+* [Usage](https://github.com/Nao974/M-BOXE/blob/master/README.md#usage)
+* [History](https://github.com/Nao974/M-BOXE/blob/master/README.md#history)
 
 
 ## Directory
@@ -84,6 +84,6 @@ The programs [M-Boxe Manager TK](https://github.com/Nao974/M-BOXE_Manager_TK) in
 
 ## History
 
-- [History] (https://github.com/Nao974/M-BOXE/blob/master/history.md)
+- [History](https://github.com/Nao974/M-BOXE/blob/master/history.md)
 
 
